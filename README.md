@@ -20,6 +20,9 @@ It is build on react 16.12.0. The implementation completely using function, no c
 
 This application also used shortid (npm install shortid) - This react library is to create unique short id for each task item.
 
+You can access the application.
+https://laughing-snyder-9e6b8c.netlify.com/
+
 ## Available Scripts
 
 In the project directory, you can run:
