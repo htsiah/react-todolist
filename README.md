@@ -27,6 +27,10 @@ https://laughing-snyder-9e6b8c.netlify.com/
 
 In the project directory, you can run:
 
+### `npm install`
+
+Download and install dependences.
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
