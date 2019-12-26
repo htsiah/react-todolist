@@ -5,13 +5,13 @@ This application tested on Node v12.13.1.
 It is build on react 16.12.0. The implementation completely using function, no class. It uses hooks functionality, for example:
 
 - useState: to set state.
-- pass function parameter in props.
+- pass function parameter in props. <br/>
   <TodoView
   key={task.id}
   task={task}
   completeTask={() => completeTask(task.id)} // Pass completeTask function with task.id as parameter
   />
-- style decaration with condition.
+- style decaration with condition. <br>/
   &lt;div
   key={props.task.id.toString()}
   style={{ textDecoration: props.task.complete ? "line-through" : "" }} // Style decoration with condition
