@@ -12,10 +12,10 @@ It is build on react 16.12.0. The implementation completely using function, no c
   completeTask={() => completeTask(task.id)} // Pass completeTask function with task.id as parameter
   />
 - style decaration with condition.
-  <div
-    key={props.task.id.toString()}
-    style={{ textDecoration: props.task.complete ? "line-through" : "" }} // Style decoration with condition
-    onClick={props.completeTask}
+  &lt;div
+  key={props.task.id.toString()}
+  style={{ textDecoration: props.task.complete ? "line-through" : "" }} // Style decoration with condition
+  onClick={props.completeTask}
   >
 
 This application also used shortid (npm install shortid) - This react library is to create unique short id for each task item.
