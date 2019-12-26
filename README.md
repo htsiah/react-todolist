@@ -9,12 +9,12 @@ It is build on react 16.12.0. The implementation completely using function, no c
   <TodoView
   key={task.id}
   task={task}
-  completeTask={() => completeTask(task.id)} // Pass completeTask function with task.id as parameter
+  <b>completeTask={() => completeTask(task.id)}</b>
   />
-- style decaration with condition. <br>/
+- style decaration with condition. <br>
   &lt;div
   key={props.task.id.toString()}
-  style={{ textDecoration: props.task.complete ? "line-through" : "" }} // Style decoration with condition
+  <b>style={{ textDecoration: props.task.complete ? "line-through" : "" }}</b>
   onClick={props.completeTask}
   >
 
